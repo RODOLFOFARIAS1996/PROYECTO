@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Care - Solución Médica Completa</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <!-- CSS de Fancybox -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css">
+
+
+</head>
+<body>
+    
+    <!-- Encabezado -->
+    <header class="encabezado">
+        <nav class="navegacion">
+            <div class="contenedor-nav">
+                <div class="logo">
+                    <img src="img/logo.png" alt="">
+                </div>
+                <ul class="menu-principal">
+                    <li><a href="#inicio">Home</a></li>
+                    <li><a href="#acerca">About</a></li>
+                    <li><a href="#servicios">Service</a></li>
+                    <li><a href="#departamentos">Departaments</a></li>
+                    <li><a href="#noticias">Blog</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#buscar">Contact</a></li>
+                </ul>
+                <button class="boton-menu-movil">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Sección Hero -->
+
+    <main id="inicio" class="seccion-hero">
+        <div class="contenedor-hero">
+            <div class="contenido-hero">
+                <h2>WE PROVIDE TOTAL</h2><h1><span class="texto-destacado">Health Care Solution</span></h1>
+                <p>Experience comprehensive health solutions tailored to your needs. At Dr Strange, we prioritize your well-being, offering a holistic approach to healthcare. From cutting-edge medical services to personalized wellness plans, trust us to be your partner in health. Embrace a healthier future with Dr Strange – where your well-being is our top priority.</p>
+                <button class="boton-principal" onclick="abrirModal()">Conocer Más</button>
+            </div>
+            
+        </div>
+    </main>
+
+    <!-- Servicios Principales -->
+    <section class="servicios-principales">
+        <div class="contenedor">
+            <div class="tarjeta-servicio">
+                <div class="icono-servicio">
+                    <i class="fas fa-user-md"></i>
+                </div>
+                <h3>Consulta Médica</h3>
+                <p>
+              Our expert medical counselors provide compassionate and
+              personalized guidance to address your health concerns. From mental
+              health to lifestyle choices, we're here to support your well-being
+              journey. Trust in our confidential counseling services for a
+              healthier and happier you.
+            </p>
+            </div>
+            <div class="tarjeta-servicio">
+                <div class="icono-servicio">
+                    <i class="fas fa-ambulance"></i>
+                </div>
+                <h3>Emergencias 24/7</h3>
+                <p>
+              Meet our team of highly qualified and experienced doctors
+              dedicated to your health. With a commitment to excellence, our
+              doctors are here to provide top-notch medical care and advice.
+              Your health is in capable hands with our seasoned professionals at
+              Dr Strange.
+            </p>
+            </div>
+            <div class="tarjeta-servicio">
+                <div class="icono-servicio">
+                    <i class="fas fa-pills"></i>
+                </div>
+                <section class="tarjeta-horarios">
+  
+  <h3>Opening Hours</h3>
+  <ul class="lista-horarios">
+    <li><span>Monday - Thursday</span><span>9:00 - 17:00</span></li>
+    <li><span>Friday</span><span>9:00 - 16:00</span></li>
+    <li><span>Saturday</span><span>9:00 - 16:00</span></li>
+  </ul>
+</section>
+            </div>
+        </div>
+    </section>
+
+    <!-- Por qué elegirnos -->
+    <section id="acerca" class="seccion-acerca">
+        <div class="contenedor">
+            
+            <div class="imagen-acerca">
+                <img src="img/about.jpg" alt="Equipo médico profesional">
+            </div>
+            <div class="contenido-acerca">
+                <h2>Why You Should Trust Us?<br>Get Know About Us!</h2>
+                <p>At Dr Strange, trust is at the core of our commitment to your well-being. Our dedicated team of healthcare professionals is driven by a passion for excellence and a genuine concern for your health. With a focus on transparency, innovation, and personalized care, we strive to be your trusted partner in the journey towards optimal health. Get to know us better, and discover why thousands choose Dr Strange for their health and care needs. Your well-being is our priority, and your trust is our greatest reward.</p>
+      
+                <button class="boton-noticia">Read More</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Estadísticas -->
+    <section class="seccion-servicios-medicos">
+  <div class="contenedor-servicios">
+    <div class="contenido-texto">
+      <p class="etiqueta">MEDICAL HEALTH AT ITS BEST</p>
+      <h2>In Search Of A Good And Quality Medical Hospital?</h2>
+      <p class="subtitulo">
+        In search of exceptional medical care and quality service? Look no further. At Dr Strange,
+        we offer top-tier medical facilities and a dedicated team of healthcare professionals committed
+        to providing the best in healthcare. Your quest for superior medical services ends here.
+      </p>
+
+      <div class="grid-servicios">
+        <article class="servicio">
+          <div class="icono"><i class="fas fa-ambulance"></i></div>
+          <h3>Emergency Care</h3>
+          <p>Providing immediate and expert care during critical moments.</p>
+        </article>
+        <article class="servicio">
+          <div class="icono"><i class="fas fa-procedures"></i></div>
+          <h3>Operation Theater</h3>
+          <p>State-of-the-art facilities for precise and advanced medical procedures.</p>
+        </article>
+        <article class="servicio">
+          <div class="icono"><i class="fas fa-stethoscope"></i></div>
+          <h3>Outdoor Checkup</h3>
+          <p>Experience comprehensive health assessments in our outdoor checkup services.</p>
+        </article>
+        <article class="servicio">
+          <div class="icono"><i class="fas fa-ribbon"></i></div>
+          <h3>Cancer Service</h3>
+          <p>Dedicated to compassionate care and advanced treatment in the fight against cancer.</p>
+        </article>
+      </div>
+    </div>
+
+    <figure class="imagen-doctora">
+      <img src="img/twoo.jpg" alt="Doctora profesional">
+    </figure>
+  </div>
+</section>
+
+
+    <!-- Servicios Clínicos -->
+    <section id="servicios" class="servicios-clinicos">
+        <div class="contenedor">
+            <h2>Our Clinical Services</h2>
+            <p class="subtitulo-servicios">Ofrecemos una amplia gama de servicios médicos especializados</p>
+            <div class="grid-servicios">
+                <div class="servicio-clinico">
+                    <i class="fas fa-heartbeat"></i>
+                    <h3>Cardiología</h3>
+                    <p>Diagnóstico y tratamiento de enfermedades del corazón y sistema cardiovascular.</p>
+                </div>
+                <div class="servicio-clinico">
+                    <i class="fas fa-brain"></i>
+                    <h3>Neurología</h3>
+                    <p>Atención especializada en trastornos del sistema nervioso central y periférico.</p>
+                </div>
+                <div class="servicio-clinico">
+                    <i class="fas fa-bone"></i>
+                    <h3>Traumatología</h3>
+                    <p>Tratamiento de lesiones y enfermedades del sistema musculoesquelético.</p>
+                </div>
+                <div class="servicio-clinico">
+                    <i class="fas fa-eye"></i>
+                    <h3>Oftalmología</h3>
+                    <p>Cuidado integral de la salud visual y tratamiento de enfermedades oculares.</p>
+                </div>
+                <div class="servicio-clinico">
+                    <i class="fas fa-tooth"></i>
+                    <h3>Odontología</h3>
+                    <p>Servicios dentales completos para mantener su salud bucal óptima.</p>
+                </div>
+                <div class="servicio-clinico">
+                    <i class="fas fa-baby"></i>
+                    <h3>Pediatría</h3>
+                    <p>Atención médica especializada para bebés, niños y adolescentes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nuevo Servicio -->
+    <section class="nuevo-servicio">
+        <div class="contenedor">
+            <div class="imagen-nuevo-servicio">
+                <img src="img/online.jpg" alt="Doctor en consulta">
+            </div>
+            <div class="contenido-nuevo-servicio">
+                <h1>ONLINE SERVICES</h1>
+                <h2>New Service — Start Your<br>Online Consultation</h2>
+                <p>Introducing our innovative online services, offering a seamless platform to initiate and manage your healthcare journey from the comfort of your home. Embrace convenience and accessibility as you begin your care journey online with Dr Strange.</p>
+                <br>
+                <p>Experience the future of healthcare with our online services. From virtual consultations to secure medical records access, Dr Strange brings comprehensive care to your fingertips. Take control of your well-being conveniently, anytime, anywhere.</p>
+                
+                <button class="boton-noticia" style="margin-top: 20px;">Learn more</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Estadísticas Destacadas -->
+    <section class="estadisticas-destacadas">
+  <div class="overlay"></div>
+  <div class="contenedor">
+    <div class="grid-estadisticas-destacadas">
+      <div class="estadistica-destacada">
+        <i class="fas fa-smile-beam icono-estadistica"></i>
+        <div class="numero-grande">200</div>
+        <div class="texto-estadistica-destacada">HAPPY PATIENTS</div>
+      </div>
+      <div class="estadistica-destacada">
+        <i class="fas fa-rocket icono-estadistica"></i>
+        <div class="numero-grande">458</div>
+        <div class="texto-estadistica-destacada">OUR SERVICES</div>
+      </div>
+      <div class="estadistica-destacada">
+        <i class="fas fa-user-plus icono-estadistica"></i>
+        <div class="numero-grande">56</div>
+        <div class="texto-estadistica-destacada">OUR DOCTORS</div>
+      </div>
+      <div class="estadistica-destacada">
+        <i class="fas fa-globe icono-estadistica"></i>
+        <div class="numero-grande">28</div>
+        <div class="texto-estadistica-destacada">SERVICE POINTS</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Departamentos -->
+    <section id="departamentos" class="seccion-departamentos">
+        <div class="contenedor">
+            <h2>Our Departments</h2>
+            <div class="contenido-departamentos">
+                <div class="lista-departamentos">
+                    <div class="departamento activo" onclick="mostrarDepartamento('ortopedia')">
+                        <i class="fas fa-bone"></i>
+                        <span>Ortopedia</span>
+                    </div>
+                    <div class="departamento" onclick="mostrarDepartamento('cardiologia')">
+                        <i class="fas fa-heartbeat"></i>
+                        <span>Cardiología</span>
+                    </div>
+                    <div class="departamento" onclick="mostrarDepartamento('neurologia')">
+                        <i class="fas fa-brain"></i>
+                        <span>Neurología</span>
+                    </div>
+                    <div class="departamento" onclick="mostrarDepartamento('urologia')">
+                        <i class="fas fa-baby"></i>
+                        <span>Pediatría</span>
+                    </div>
+                </div>
+                <div class="info-departamento">
+                    <div id="ortopedia" class="contenido-departamento activo">
+                        <h2>Orthopaedic </h2>
+                        <p>Orthopaedic
+                        Step into our orthopaedic department, where musculoskeletal health is our expertise. Our orthopaedic specialists are equipped to address a variety of conditions, from joint pain to sports injuries. With a focus on personalized treatment plans, we offer a range of services, including physical therapy and surgical interventions, to enhance your mobility and overall musculoskeletal function.</p>
+        
+                        <button class="boton-noticia">View details</button>
+                    </div>
+                    <div id="cardiologia" class="contenido-departamento">
+                        <h2>Cardiology </h2>
+                        <p>Our cardiology department is your partner in heart health. From advanced diagnostics, such as echocardiograms and stress tests, to interventional procedures, our cardiologists are dedicated to ensuring the well-being of your cardiovascular system.
+
+Receive expert care for conditions like hypertension, heart disease, and more, with a focus on preventive measures and lifestyle management.</p>  
+                        <button class="boton-noticia">View details</button>
+                    </div>
+                    <div id="neurologia" class="contenido-departamento">
+                        <h2>Neurology </h2>
+                        <p>In our neurology department, we offer specialized care for a spectrum of neurological conditions. Our experienced neurologists utilize state-of-the-art diagnostic techniques to assess and treat disorders affecting the nervous system.
+
+Whether addressing headaches, seizures, or more complex neurological issues, our team is committed to providing personalized and effective solutions for your neurological well-being.</p>
+                        <button class="boton-noticia">View details</button>
+                    </div>
+                    <div id="urologia" class="contenido-departamento">
+                        <h2>Urology </h2>
+                        <p>Experience comprehensive urological care in our department, where our skilled specialists address a wide range of conditions, from kidney stones to prostate issues. Using advanced diagnostic tools, we provide personalized treatment plans to ensure optimal urinary and reproductive health.
+
+Your well-being is our priority, and we are committed to delivering compassionate and effective urological care.</p>
+                        <button class="boton-noticia">View details</button>
+                    </div>
+                </div>
+                
+                <div class="imagen-departamento">
+                    <img src="img/Orthopaedic.jpg" alt="Departamento de Ortopedia">
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonios -->
+     <div src></div>
+    <section class="carousel">
+        <div id="carousel">
+  <div id="slide-container">
+    <div class="slide" data-slideindex="0">
+      <img src="img/1(1).jpg" alt="">
+      <p>
+                        Dr Strange provided exceptional care during my recent
+                        health concern. The medical team's expertise and
+                        compassion were evident throughout the entire process. I
+                        am grateful for their personalized approach, making me
+                        feel heard and valued as a patient.
+                      </p>
+      <H2>JACOB SMITH</H2>
+      <p>Buisnessman</p>
+    </div>
+    <div class="slide" data-slideindex="1">
+      <img src="img/2(1).jpg" alt="">
+      <p>
+                        I had a positive experience at Dr Strange's dental
+                        department. The team was not only efficient in
+                        performing my required dental procedures but also showed
+                        great care and consideration for my comfort. I highly
+                        recommend their dental services.
+                      </p>
+      <h2>Alice williams</h2>
+      <p>Engineer</p>
+    </div>
+    <div class="slide" data-slideindex="2">
+      <img src="img/3(1).jpg" alt="">
+      <p>
+                        My neurology consultation at Dr Strange was reassuring
+                        and insightful. The neurologist took the time to explain
+                        my condition thoroughly, addressing all my concerns. The
+                        level of professionalism and expertise instilled
+                        confidence in the care I received.
+                      </p>
+      <h2>PAUL FLAVIUS</h2>
+        <p>student</p>
+    </div>
+    
+  </div>
+
+  <div class="controls">
+    <button id="back-button">&#10094;</button>
+    <button id="forward-button">&#10095;</button>
+  </div>
+
+  <div class="indicators">
+    <span class="slide-indicator active"></span>
+    <span class="slide-indicator"></span>
+    <span class="slide-indicator"></span>
+  </div>
+</div>
+
+    </section>
+                    
+    
+  
+
+
+
+    <!-- Noticias -->
+    <section id="noticias" class="seccion-noticias">
+        <div class="contenedor">
+            <h3>BLOG</h3>
+            <h2>Latest News</h2>
+            <p>Stay informed with our latest blog updates, where we share valuable insights, health tips, and news on medical advancements. Explore the intersection of healthcare and well-being in our dynamic blog space.</p>
+            <div class="grid-noticias">
+                <article class="noticia">
+                    <img src="img/1(2).jpg" alt="Nuevos tratamientos">
+                    <div class="contenido-noticia">
+                        <h3>How do you tell the psychiatrists from the patients in hospital?</h3>
+                        <p>Dive into our latest blog exploring strategies for maintaining mental well-being. From stress management techniques to mindfulness practices, discover actionable insights to enhance your mental health journey.</p>
+                        <button class="boton-noticia">Leer Más</button>
+                    </div>
+                </article>
+                <article class="noticia">
+                    <img src="img/2(2).jpg" alt="Campaña de vacunación">
+                    <div class="contenido-noticia">
+                        <h3>Financial worries may raise heart attack risk</h3>
+                        <p>Explore the connection between nutrition and heart health in our insightful blog. Uncover dietary tips and superfoods that can contribute to a healthier cardiovascular system, empowering you to make informed choices for a heart-healthy lifestyle.</p>
+                        <button class="boton-noticia">Leer Más</button>
+                    </div>
+                </article>
+                <article class="noticia">
+                    <img src="img/3(2).jpg" alt="Nuevo equipo médico">
+                    <div class="contenido-noticia">
+                        <h3>It a bit unnerving that doctors call what they do</h3>
+                        <p>Delve into our orthopaedic blog for a comprehensive understanding of joint health. From exercises to prevent joint issues to insights on managing conditions like arthritis, gain valuable knowledge to support your musculoskeletal well-being.</p>
+                        <button class="boton-noticia">Leer Más</button>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="seccion-faq">
+  <div class="contenedor">
+    <p class="etiqueta">FAQ</p>
+    <h2 class="titulo-faq">Our Clinical Services</h2>
+    <p class="subtitulo-faq">
+      Find answers to common queries about our clinical services in our FAQ section.
+      We’re here to provide clarity and address any questions you may have about the range
+      of specialized healthcare offerings at Dr Strange.
+    </p>
+
+    <div class="contenedor-faq">
+      <div class="faq-imagen">
+        <img src="img/faq.jpg" alt="Equipo médico">
+      </div>
+      <div class="faq-acordeon">
+        <div class="pregunta" onclick="toggleFAQ(this)">
+          <p>Can I book appointment behalf of someone else?</p>
+          <span>&#9660;</span>
+        </div>
+        <div class="respuesta">
+          <p>This is the first item's accordion body. It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.</p>
+        </div>
+
+        <div class="pregunta" onclick="toggleFAQ(this)">
+          <p>Do I need a referral to see a physiotherapist?</p>
+          <span>&#9660;</span>
+        </div>
+        <div class="respuesta">
+          <p>This is the second item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.</p>
+        </div>
+
+        <div class="pregunta" onclick="toggleFAQ(this)">
+          <p>How to book a doctor's consultation for a specific time?</p>
+          <span>&#9660;</span>
+        </div>
+        <div class="respuesta">
+          <p>This is the third item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.</p>
+        </div>
+        <div class="pregunta" onclick="toggleFAQ(this)">
+          <p>How to book a doctor's consultation for a specific time?</p>
+          <span>&#9660;</span>
+        </div>
+        <div class="respuesta">
+          <p>This is the third item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.</p>
+        </div>
+        <div class="pregunta" onclick="toggleFAQ(this)">
+          <p>How to book a doctor's consultation for a specific time?</p>
+          <span>&#9660;</span>
+        </div>
+        <div class="respuesta">
+          <p>This is the third item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.</p>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</section>
+    <!-- Buscar Doctor -->
+    <section class="buscar-doctor" id="buscar">
+    <div class="contenedor">
+        <div class="contenido-buscar">
+            <h4 class="etiqueta-contacto">HAPPY TO HELP!</h4>
+            <h2>Looking for a Certified Doctor?</h2>
+            <p>
+                Our dedicated team is here to assist you in finding the right certified doctor for your healthcare needs.
+                Feel free to reach out, and we'll guide you towards quality care with compassion and expertise.
+            </p>
+
+            <form class="formulario-buscar" id="formularioContacto">
+                <div class="fila-formulario">
+                    <div>
+                        <input type="text" id="nombre" placeholder="Your Name" required>
+                        <span class="error" id="error-nombre"></span>
+                    </div>
+                    <div>
+                        <input type="email" id="email" placeholder="Email address" required>
+                        <span class="error" id="error-email"></span>
+                    </div>
+                </div>
+
+                <div>
+                    <input type="text" id="asunto" placeholder="Your Subject" required>
+                    <span class="error" id="error-asunto"></span>
+                </div>
+
+                <div>
+                    <textarea id="mensaje" rows="5" placeholder="Your message" required></textarea>
+                    <span class="error" id="error-mensaje"></span>
+                </div>
+
+                <button type="submit" class="boton-buscar">Send message</button>
+            </form>
+        </div>
+
+        <div class="imagen-buscar">
+            <img src="img/form.png" alt="Equipo de doctores">
+        </div>
+    </div>
+</section>
+
+<section class="galeria-imagenes">
+  <h2>Image Gallery</h2>
+  <p>Explore our image gallery showcasing highlights of our hospital and medical team.</p>
+  <p>Click on the images to view them in full size.</p>
+  <a data-fancybox="gallery" href="img/1(2).jpg">
+    <img src="img/1(1).jpg" alt="Foto 1">
+  </a>
+  <a data-fancybox="gallery" href="img/2(2).jpg">
+    <img src="img/2(1).jpg" alt="Foto 2">
+  </a>
+  <a data-fancybox="gallery" href="img/3(2).jpg">
+    <img src="img/3(1).jpg" alt="Foto 3">
+  </a>
+</section>
+
+
+
+    <!-- Footer -->
+    <footer id="contacto" class="pie-pagina">
+      <div class="contenedor">
+        <div class="grid-footer">
+          <div class="columna-footer">
+            <div class="logo-footer">
+              <img src="img/logo-white.png" alt="">
+            </div>
+            <p>We provide quality medical care with a human and professional approach. Your health is our priority.</p>
+            <div class="redes-sociales">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+          <div class="columna-footer">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="#inicio">Home</a></li>
+              <li><a href="#acerca">About Us</a></li>
+              <li><a href="#servicios">Services</a></li>
+              <li><a href="#departamentos">Departments</a></li>
+            </ul>
+          </div>
+          <div class="columna-footer">
+            <h3>Services</h3>
+            <ul>
+              <li><a href="#">General Consultation</a></li>
+              <li><a href="#">Emergency</a></li>
+              <li><a href="#">Surgery</a></li>
+              <li><a href="#">Laboratory</a></li>
+            </ul>
+          </div>
+          <div class="columna-footer">
+            <h3>Contact</h3>
+            <div class="info-contacto">
+              <p><i class="fas fa-map-marker-alt"></i> 123 Main Ave, City</p>
+              <p><i class="fas fa-phone"></i> +1 234 567 8900</p>
+              <p><i class="fas fa-envelope"></i> info@healthcare.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="linea-footer"></div>
+        <div class="copyright">
+          <p>&copy; 2024 Dr Strange. All rights reserved.</p>
+        </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/carrousel.js"></script>
+    <!-- JS de Fancybox -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+
+    <div id="modal-video" class="modal">
+  <div class="modal-contenido">
+    <span class="cerrar-modal" onclick="cerrarModal()">&times;</span>
+    <div class="video-responsive">
+      <iframe id="iframe-video" src="" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
+</body>
+</html>
