@@ -224,13 +224,11 @@ h1, h2, h3, h4, .titulo-faq, .etiqueta, .numero-grande,a {
     color: var(--color-texto);
 }
 .tarjeta-horarios {
-  
+    
   border-radius: 6px;
   padding: 30px 20px;
   text-align: center;
   width: 100%;
-  max-width: 350px;
-  
   
 }
 
@@ -915,6 +913,7 @@ h1, h2, h3, h4, .titulo-faq, .etiqueta, .numero-grande,a {
 .contenido-noticia p {
     margin-bottom: 1.5rem;
     color: var(--color-texto);
+    width: 100%;
 }
 
 .boton-noticia {
@@ -1312,7 +1311,7 @@ h1, h2, h3, h4, .titulo-faq, .etiqueta, .numero-grande,a {
         flex-direction: column;
     }
     .seccion-noticias p{
-        max-width: 70%;
+        max-width: 100%;
     }
     
 }
@@ -1430,7 +1429,3 @@ h1, h2, h3, h4, .titulo-faq, .etiqueta, .numero-grande,a {
   transition: transform 0.3s ease;
 }
 
-.contenedor-fotos a img:hover {
-  transform: scale(1.05);
-  cursor: pointer;
-}
